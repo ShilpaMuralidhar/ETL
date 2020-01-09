@@ -1,0 +1,11 @@
+ID,Def
+0,(0)Driver Did Not Maneuver To Avoid
+1,(1)Object
+2,"(2)Poor Road Conditions (Puddle, Ice, Pothole, Etc.)"
+3,(3)Live Animal
+4,(4)Motor Vehicle
+5,"(5)Pedestrian, Pedalcyclist Or Other Non-Motorist"
+92,(92)Phantom/Non-Contact Motor Vehicle
+95,(95)No Driver Present/Unknown If Driver Present
+98,(98)Not Reported
+99,(99)Unknown

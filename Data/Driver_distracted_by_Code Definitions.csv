@@ -1,0 +1,24 @@
+ID,Def
+0,(0)Not Distracted
+1,(1)Looked But Did Not See
+3,(3)By Other Occupant(s)
+4,(4)By A Moving Object In Vehicle
+5,(5)While Talking Or Listening To Cellular Phone
+6,(6)While Manipulating Cellular Phone
+7,(7)Adjusting Audio Or Climate Controls
+9,(9)While Using Other Component/Controls Integral To Vehicle
+10,(10)While Using Or Reaching For Device/Object Brought Into Vehicle
+12,"(12)Distracted By Outside Person, Object Or Event"
+13,(13)Eating Or Drinking
+14,(14)Smoking Related
+15,(15)Other Cellular Phone Related
+16,(16)No Driver Present/Unknown If Driver Present
+17,(17)Distraction/Inattention
+18,(18)Distraction/Careless
+19,(19)Careless/Inattentive
+92,"(92)Distraction (Distracted), Details Unknown"
+93,"(93)Inattention (Inattentive), Details Unknown"
+96,(96)Not Reported
+97,(97)Lost In Thought / Day Dreaming
+98,(98)Other Distraction
+99,(99)Unknown If Distracted

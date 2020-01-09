@@ -1,0 +1,94 @@
+ID,Def
+0,(0)No Impact
+1,(1)Drive Off Road
+2,(2)Control/Traction Loss
+3,"(3)Avoid Collision With Veh., Ped., Anim."
+4,(4)Specifics Other
+5,(5)Specifics Unknown
+6,(6)Drive Off Road
+7,(7)Control/Traction Loss
+8,"(8)Avoid Collision With Veh., Ped., Anim."
+9,(9)Specifics Other
+10,(10)Specifics Unknown
+11,(11)Parked Veh.
+12,(12)Sta. Object
+13,(13)Pedestrian/ Animal
+14,(14)End Departure
+15,(15)Specifics Other
+16,(16)Specifics Unknown
+20,(20)Stopped
+21,"(21)Stopped, Straight"
+22,"(22)Stopped, Left"
+23,"(23)Stopped, Right"
+24,(24)Slower
+25,"(25)Slower, Going Straight"
+26,"(26)Slower, Going Left"
+27,"(27)Slower, Going Right"
+28,(28)Decelerating (Slowing)
+29,"(29)Decelerating (Slowing), Going Straight"
+30,"(30)Decelerating (Slowing), Going Left"
+31,"(31)Decelerating (Slowing), Going Right"
+32,(32)Specifics Other
+33,(33)Specifics Unknown
+34,(34)Control/Traction Loss
+35,(35)Control/Traction Loss
+36,(36)Control/Traction Loss
+37,(37)Control/Traction Loss
+38,(38)Avoid Collision With Vehicle
+39,(39)Avoid Collision With Vehicle
+40,(40)Avoid Collision With Object
+41,(41)Avoid Collision With Object
+42,(42)Specifics Other
+43,(43)Specifics Unknown
+44,(44)Straight Ahead On Left
+45,(45)Straight Ahead On Left/Right
+46,(46)Changing Lanes To The Right
+47,(47)Changing Lanes To The Left
+48,(48)Specifics Other
+49,(49)Specifics Unknown
+50,(50)Lateral Move (Left/Right)
+51,(51)Lateral Move (Going Straight)
+52,(52)Specifics Other
+53,(53)Specifics Unknown
+54,(54)Control/Traction Loss
+55,(55)Control/Traction Loss
+56,(56)Control/Traction Loss
+57,(57)Control/Traction Loss
+58,(58)Avoid Collision With Vehicle
+59,(59)Avoid Collision With Vehicle
+60,(60)Avoid Collision With Object
+61,(61)Avoid Collision With Object
+62,(62)Specifics Other
+63,(63)Specifics Unknown
+64,(64)Lateral Move (Left/Right)
+65,(65)Lateral Move (Going Straight)
+66,(66)Specifics Other
+67,(67)Specifics Unknown
+68,(68)Initial Opposite Directions (Left/Right)
+69,(69)Initial Opposite Directions (Going Straight)
+70,(70)Initial Same Directions (Turning Right)
+71,(71)Initial Same Directions (Going Straight)
+72,(72)Initial Same Directions (Turning Left)
+73,(73)Initial Same Directions (Going Straight)
+74,(74)Specifics Other
+75,(75)Specifics Unknown
+76,(76)Turn Into Same Direction (Turning Left)
+77,(77)Turn Into Same Direction (Going Straight)
+78,(78)Turn Into Same Direction (Turning Right)
+79,(79)Turn Into Same Direction (Going Straight)
+80,(80)Turn Into Opposite Directions (Turning Right)
+81,(81)Turn Into Opposite Directions (Going Straight)
+82,(82)Turn Into Opposite Directions (Turning Left)
+83,(83)Turn Into Opposite Directions (Going Straight)
+84,(84)Specifics Other
+85,(85)Specifics Unknown
+86,(86)Striking From The Right
+87,(87)Struck On The Right
+88,(88)Striking From The Left
+89,(89)Struck On The Left
+90,(90)Specifics Other
+91,(91)Specifics Unknown
+92,(92)Backing Veh.
+93,(93)Other Vehicle
+98,(98)Other Crash Type
+99,(99)Unknown
