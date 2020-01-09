@@ -1,0 +1,27 @@
+arf3,CrashRelatedFactor(3)
+-1,(-1)Blank
+0,(0)None
+1,"(1)Inadequate Warning Of Exits, Lanes Narrowing, Traffic Controls, Etc."
+2,(2)Shoulder Design Or Condition
+3,(3)Other Maintenance Or Construction-Created Condition
+4,(4)No Or Obscured Pavement Marking
+5,(5)Surface Under Water
+6,"(6)Inadequate Construction Or Poor Design Of Roadway,Bridge, Etc."
+7,"(7)Surface Washed Out(caved-in, Road Slippage)"
+13,(13)Aggressive Driving / Road Rage By Non-contact Vehicle Driver
+14,"(14)Motor Vehicle Struck By Falling Cargo,or Something That Came Loose From Or Something That Was Set In Motion By A Vehicle"
+15,"(15)Non-occupant Struck By Falling Cargo, Or Something That Came Loose From, Or Something That Was Set In Motion By A Vehicle"
+16,(16)Non-occupant Struck Vehicle
+17,(17)Vehicle Set-in-motion By Non-driver
+18,(18)Date Of Crash And Date Of EMS Notification Were Not The Same Day
+19,(19)Recent/Previous Crash Scene Nearby
+20,(20)Police Pursuit Involved
+21,(21)Within Designated School Zone
+22,(22)Speed Limit Is A Statutory Limit As Recorded Or Was Determined As This State's 'basic Rule'
+23,(23)Indication Of A Stalled/Disabled Vehicle
+24,(24)Unstabalized Situation Began And All Harmful Events Occurred Off Of The Roadway
+25,(25)Toll Booth/Plaza Related
+26,(26)Backup Due To Prior Non-Recurring Incident
+27,(27)Backup Due To Prior Crash
+28,(28)Backup Due To Regular Congestion
+99,(99)Unknown
