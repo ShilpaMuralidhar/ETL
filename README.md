@@ -2,12 +2,12 @@
 
 ## Team members:  Shilpa Muralidhar, Lisa Cannon
 
-#### Overview:
+## Overview:
 
 We extracted crash information from the National Highway Traffic Safety Administration’s Fatality Analysis Reporting System (NHTSA-FARS) about fatal accidents that occurred in Texas in 2016.  There are 9,022 fatalities listed and 123 fields of information provided regarding the conditions and details of the traffic incident that resulted in fatality. The information extracted uses a number coding system to identify categories.  The number code is identified in a separate table. We chose fields of our interest and converted their number codes into meaningful text information using the coding tables. 
 All these data were then loaded onto SQL for further querying.
 
-# 1. EXTRACTION
+### 1. EXTRACTION
 We learnt about driving related accidents through Kaggle which linked to FARS (Fatality Analysis Reporting System), https://www-fars.nhtsa.dot.gov. All our data was obtained from https://www-fars.nhtsa.dot.gov website. Our Data set contains vehicle associated fatal incidents with in the state of Texas, in the year 2016. This dataset contains Pre-Crash and Crash relevant information with: State Number, Case number (Case Number represents each fatal accident) and Vehicle Number being common to both Pre-Crash and Crash fields. 
 Data within the variables in the Pre-Crash and Crash fields are number coded. Each number code further represents details associated with fatalities. Each representation table has codes in one column and its interpretations as another column. Excel files of field tables and their interpretation tables were first downloaded, cleaned for irrelevant labels, and finally converted to CSV files.
 
@@ -16,7 +16,7 @@ i.	Variables in Pre-Crash field included: Crash Type, Driver Distracted By, Driv
 B.	Crash Information (Lisa’s Data set)
 i.	Variables in Crash field included: Atmospheric Conditions, City Name, County Name, Crash Related Factors, Drowsy, First Harmful Event, Holiday Related, Injury Severity, Large Truck Related, Light Conditions, Police Reported Alcohol Involvement, Police Reported Drug Involvement, Speeding, Work Zone.
 
-# 2.	TRANSFORM (DATA CLEANING)
+### 2.	TRANSFORM (DATA CLEANING)
 All the data cleaning was performed in Jupyter Notebook using Pandas and Excel. Pre-Crash and Crash field tables were imported into Pandas DataFrame.
 
 A.	Pre-Crash Information (Shilpa’s Data set) 
