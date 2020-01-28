@@ -29,7 +29,7 @@ iii.	Unique VehicleID was then created by combining zfill(ed) Case Number and Ve
 
 iv.	Driver Distraction column contained two values for 7 cases.  This meant the driver was distracted by more than one event.  Therefore, this column was duplicated and both columns were cleaned to have only one value in each cell.
 
-v.	To change the values from numeric to its interpreted meaning, specific Code Definition tables were imported and pd.merge ()was used to replace the numbers to its interpretation.
+v.	To change the values from numeric to its interpreted meaning, specific Code Definition tables were imported and pd.merge () was used to replace the numbers to its interpretation.
 
 vi.	Columns were renamed as State Number, Case Number, Crash Type, First and Second Distraction, Driver Action and Obscured Vision.
  
