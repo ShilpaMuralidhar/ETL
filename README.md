@@ -12,8 +12,11 @@ We learnt about driving related accidents through Kaggle which linked to FARS (F
 Data within the variables in the Pre-Crash and Crash fields are number coded. Each number code further represents details associated with fatalities. Each representation table has codes in one column and its interpretations as another column. Excel files of field tables and their interpretation tables were first downloaded, cleaned for irrelevant labels, and finally converted to CSV files.
 
 A.	Pre-Crash Information (Shilpa’s Data set)
+
 i.	Variables in Pre-Crash field included: Crash Type, Driver Distracted By, Driver Maneuvered to Avoid, Driver’s Vision Obscured By.
+
 B.	Crash Information (Lisa’s Data set)
+
 i.	Variables in Crash field included: Atmospheric Conditions, City Name, County Name, Crash Related Factors, Drowsy, First Harmful Event, Holiday Related, Injury Severity, Large Truck Related, Light Conditions, Police Reported Alcohol Involvement, Police Reported Drug Involvement, Speeding, Work Zone.
 
 ### 2.	TRANSFORM (DATA CLEANING)
