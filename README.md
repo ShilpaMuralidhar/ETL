@@ -40,5 +40,5 @@ ix.	The date string value is translated to a datetime field.
 x.	Any remaining field names that include parentheses are renamed.
 xi.	Some vehicle information is not available in the distraction data. Those rows are removed from the crash information data. VehicleIDs removed are listed: 09780002, 14820002, 15560002, 15560002, 17090002, 27400002, 27930002
  
-3.	LOAD
+### 3.	LOAD
 Transformed data in Jupyter NoteBook was later loaded in a Postgres SQL database. Postgres SQL was chosen because the data is organized in a table-based relational format. Two tables named crashinfo and crashdistraction were created in SQL.   The primary key for the crashdistraction table is VehicleID.  This field is used as the foreign key in crashinfo.  The primary key for crashinfo is PersonID.
