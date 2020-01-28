@@ -33,7 +33,7 @@ v.	To change the values from numeric to its interpreted meaning, specific Code D
 
 vi.	Columns were renamed as State Number, Case Number, Crash Type, First and Second Distraction, Driver Action and Obscured Vision.
 
-Lisa's data from FARS_data.ipynb was cleaned. Both 
+Lisa's data from FARS_data.ipynb was cleaned.  
  
 ### 3.	LOAD
-Transformed data in Jupyter NoteBook was later loaded in a Postgres SQL database. Postgres SQL was chosen because the data is organized in a table-based relational format. Two tables named crashinfo and crashdistraction were created in SQL.   The primary key for the crashdistraction table is VehicleID.  This field is used as the foreign key in crashinfo.  The primary key for crashinfo is PersonID.
+Transformed Pre_crash_data.ipynb and FARS_data.ipynb in Jupyter NoteBook was later loaded in a Postgres SQL database. Postgres SQL was chosen because the data is organized in a table-based relational format. Two tables named crashinfo and crashdistraction were created in SQL.   The primary key for the crashdistraction table is VehicleID.  This field is used as the foreign key in crashinfo.  The primary key for crashinfo is PersonID.
