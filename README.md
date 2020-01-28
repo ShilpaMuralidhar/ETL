@@ -1,8 +1,8 @@
-#### Extraction, Transform, Load: ETL REPORT ON VEHICLE-RELATED FATAL ACCIDENTS IN TEXAS
+# Extraction, Transform, Load: ETL REPORT ON VEHICLE-RELATED FATAL ACCIDENTS IN TEXAS
 
-### Team members:  Shilpa Muralidhar, Lisa Cannon
+## Team members:  Shilpa Muralidhar, Lisa Cannon
 
-## Overview:
+#### Overview:
 
 We extracted crash information from the National Highway Traffic Safety Administration’s Fatality Analysis Reporting System (NHTSA-FARS) about fatal accidents that occurred in Texas in 2016.  There are 9,022 fatalities listed and 123 fields of information provided regarding the conditions and details of the traffic incident that resulted in fatality. The information extracted uses a number coding system to identify categories.  The number code is identified in a separate table. We chose fields of our interest and converted their number codes into meaningful text information using the coding tables. 
 All these data were then loaded onto SQL for further querying.
