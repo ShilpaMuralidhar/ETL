@@ -20,25 +20,18 @@ i.	Variables in Crash field included: Atmospheric Conditions, City Name, County 
 All the data cleaning was performed in Jupyter Notebook using Pandas and Excel. Pre-Crash and Crash field tables were imported into Pandas DataFrame.
 
 A.	Pre-Crash Information (Shilpa’s Data set) 
-i.	All Null values were removed using dropna().
-ii.	Values of Case Number and Vehicle Number was converted to string, and leading zeros were added using pd.zfill() method.
-iii.	Unique VehicleID was then created by combining zfill(ed) Case Number and Vehicle Number.
-iv.	Driver Distraction column contained two values for 7 cases.  This meant the driver was distracted by more than one event.  Therefore, this column was duplicated and both columns were cleaned to have only one value in each cell.
-v.	To change the values from numeric to its interpreted meaning, specific Code Definition tables were imported and pd.merge ()was used to replace the numbers to its interpretation.
-vi.	Columns were renamed as State Number, Case Number, Crash Type, First and Second Distraction, Driver Action and Obscured Vision.
 
-B.	Crash Information (Lisa’s Data set)
-i.	Null values were removed. Using dropna()
-ii.	VehicleID and unique PersonID were created using the pd.zfill() method to combine case number, vehicle number, and person number
-iii.	Because we are focused on information specific to a vehicle, instances where a person is not associated with a vehicle (i.e. a pedestrian struck by a car) are not included.
-iv.	The initial pull of crash data from the FARS website provide 101 different fields to describe a crash event.  Only 23 variables are kept for this study.
-v.	The crash information provides a row of data for all people involved in the crash regardless of whether the person was fatally injured by the accident. We only keep rows of person information for individuals that died in the crash.
-vi.	Number code tables were imported the interpret the meaning of the numbers listed in the crash information table.  The values of the interpretation fields were cleaned to remove leading umber code values.
-vii.	The crash data table was merged to number code tables to replace number codes with their interpretation.
-viii.	The field that represents the number of people and the number of vehicles involved in a crash are translated to integer format.
-ix.	The date string value is translated to a datetime field.
-x.	Any remaining field names that include parentheses are renamed.
-xi.	Some vehicle information is not available in the distraction data. Those rows are removed from the crash information data. VehicleIDs removed are listed: 09780002, 14820002, 15560002, 15560002, 17090002, 27400002, 27930002
+i.	All Null values were removed using dropna().
+
+ii.	Values of Case Number and Vehicle Number was converted to string, and leading zeros were added using pd.zfill() method.
+
+iii.	Unique VehicleID was then created by combining zfill(ed) Case Number and Vehicle Number.
+
+iv.	Driver Distraction column contained two values for 7 cases.  This meant the driver was distracted by more than one event.  Therefore, this column was duplicated and both columns were cleaned to have only one value in each cell.
+
+v.	To change the values from numeric to its interpreted meaning, specific Code Definition tables were imported and pd.merge ()was used to replace the numbers to its interpretation.
+
+vi.	Columns were renamed as State Number, Case Number, Crash Type, First and Second Distraction, Driver Action and Obscured Vision.
  
 ### 3.	LOAD
 Transformed data in Jupyter NoteBook was later loaded in a Postgres SQL database. Postgres SQL was chosen because the data is organized in a table-based relational format. Two tables named crashinfo and crashdistraction were created in SQL.   The primary key for the crashdistraction table is VehicleID.  This field is used as the foreign key in crashinfo.  The primary key for crashinfo is PersonID.
