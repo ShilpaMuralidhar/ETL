@@ -19,7 +19,7 @@ i.	Variables in Crash field included: Atmospheric Conditions, City Name, County 
 ### 2.	TRANSFORM (DATA CLEANING)
 All the data cleaning was performed in Jupyter Notebook using Pandas and Excel. Pre-Crash and Crash field tables were imported into Pandas DataFrame.
 
-A.	Pre-Crash Information (Shilpa’s Data set) 
+A.	Pre-Crash Information 
 
 i.	All Null values were removed using dropna().
 
@@ -32,6 +32,8 @@ iv.	Driver Distraction column contained two values for 7 cases.  This meant the 
 v.	To change the values from numeric to its interpreted meaning, specific Code Definition tables were imported and pd.merge () was used to replace the numbers to its interpretation.
 
 vi.	Columns were renamed as State Number, Case Number, Crash Type, First and Second Distraction, Driver Action and Obscured Vision.
+
+Lisa's data from FARS_data.ipynb was cleaned. Both 
  
 ### 3.	LOAD
 Transformed data in Jupyter NoteBook was later loaded in a Postgres SQL database. Postgres SQL was chosen because the data is organized in a table-based relational format. Two tables named crashinfo and crashdistraction were created in SQL.   The primary key for the crashdistraction table is VehicleID.  This field is used as the foreign key in crashinfo.  The primary key for crashinfo is PersonID.
